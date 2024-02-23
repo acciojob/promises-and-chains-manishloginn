@@ -1,5 +1,3 @@
-//your JS code here. If required.
-
 document.getElementById("ageform").addEventListener("submit", function (event) {
 
     event.preventDefault()
