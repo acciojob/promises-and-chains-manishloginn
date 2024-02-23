@@ -1,4 +1,4 @@
-document.getElementById("ageform").addEventListener("submit", function (event) {
+document.getElementById("ageForm").addEventListener("submit", function (event) {
 
     event.preventDefault()
 
@@ -36,7 +36,8 @@ document.getElementById("ageform").addEventListener("submit", function (event) {
         );
     
 
- 
+        nameInput.value = "";
+        ageInput.value = "";
 
 
 });
