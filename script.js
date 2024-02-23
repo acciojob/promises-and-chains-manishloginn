@@ -36,8 +36,7 @@ document.getElementById("ageform").addEventListener("submit", function (event) {
         );
     
 
-        nameInput.value = "";
-        ageInput.value = "";
+ 
 
 
 });
