@@ -10,7 +10,7 @@ document.getElementById("ageForm").addEventListener("submit", function (event) {
     const name = nameInput.value.trim();
 
         if (!name || !age) {
-            alert ('please fill detail first')
+            alert ('Please enter valid details')
             return
         };
 
